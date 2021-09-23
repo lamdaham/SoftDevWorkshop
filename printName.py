@@ -1,3 +1,9 @@
+# Ivan Lam
+# SoftDev
+# K<nn> -- <Title/Topic/Summary... (Aim for concision, brevity, CLARITY. Write to your future self...)>
+# 2021-09-21
+
+
 import random
 names1 = ["Ella", "Ivan", "Justin"]
 names2 = ["John", "Bob", "Peter"]
