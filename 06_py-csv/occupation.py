@@ -19,6 +19,9 @@ import csv, random
 def read(dict):
     with open('occupations.csv', newline='') as csvfile:
         spamreader = csv.reader(csvfile, delimiter=',')
+        spamreader = list(spamreader)
+        spamreader.pop(0)
+        spamreader.pop(-1)
         for row in spamreader:
             dict[row[0]] = float(row[1])*10
 
