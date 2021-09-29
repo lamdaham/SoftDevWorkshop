@@ -1,3 +1,19 @@
+#Ivan Lam
+#SoftDev
+#K06: StI/O: Divine your Destiny
+#2021-09-28
+
+# SUMMARY OF TRIO DISCUSSION
+# I discussed with Ella and Justin to use a dictionary to store the list of the two occupations and percentage.
+# We also used sys readfile to create a program that reads from csv file
+# DISCOVERIES
+# We could multiply each percentage by 10 so that there is no decimal point and we can use randrange
+# QUESTIONS
+# None
+# COMMENTS
+# We used two functions to better organize the code.
+
+
 import csv, random
 
 def read(dict):
