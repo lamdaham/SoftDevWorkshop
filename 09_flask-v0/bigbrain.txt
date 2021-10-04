@@ -1,0 +1,15 @@
+Vibe: Ella Krechmer, Ivan Lam, Naomi Naranjo, plus respective rubber duckies (duo of 3)
+SoftDev
+K09-- Simple Path to Greatness/Running first Flask app
+10-01-2021
+
+
+0. This syntax reminds me of Java, where we initiate object with a class.
+1. "/" is how the computer separate path directories and it is easy to see this in the terminal or html websites
+2. I think it'll print in terminal once the server starts. 3. It says it'll print __name__ so I assume it's the name corresponding to the Flask element.
+3. I believe it print on the webpage once the server runs because I have prior experience in flask.
+4. This reminds me of functions that certain objects have in Java
+
+notes:
+- it printed out __main__ in the terminal which I didn't realize was the value of __name__.
+- I did have prior experience in flask so I am a bit familiar with what is happening.
