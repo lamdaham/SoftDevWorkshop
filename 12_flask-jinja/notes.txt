@@ -1,0 +1,11 @@
+Q0: What happens if you remove render_template from this line?
+
+If you remve render_template, the "/my_foist_template" page would not run because render_template is not defined.
+
+Q1: Can all of your teammates confidently predict the URL to use to load this page?
+
+Yes, it is "localhost:5000/my_foist_template"
+
+Q2: What is the significance of each argument?
+
+It is what values the argument will replace in the variables in the template.
