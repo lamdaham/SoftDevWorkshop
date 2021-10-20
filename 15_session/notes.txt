@@ -1,0 +1,19 @@
+#Team02 - Renggeng Zheng Ivan Lam Lia Nelson
+#SoftDev
+#K15 -- Session Greetings -- Usernames and Passwords
+#2021-10-18
+
+request.args = what's in the url
+-- if you get
+request.form = what's in the form
+-- if you post
+The above are functionally the same sans get puts your entries in the URL.
+
+Empty templates don't render.
+How to create session object?
+https://pythonbasics.org/flask-cookies/
+
+app.secret_key = <randomly generate on ALPHANUMERIC STRING>
+ * e.g. os.random(32)
+ ** never store key in public repo, because it's the cryptographic key and if you do bye bye passwords
+ ** session.pop(KEY) <- rm session data
