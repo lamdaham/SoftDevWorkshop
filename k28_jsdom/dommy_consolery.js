@@ -88,3 +88,34 @@ var stripe = function() {
 // FIB
 // FAC
 // GCD
+
+function fact (n){
+    if (n == 0){
+      return 1;
+    }
+    return (n * (fact(n-1)));
+}
+
+function fib (n){
+    if (n <= 1){
+        return n;
+    }
+    return (fib(n-1) + fib(n-2));
+}
+
+function gcd (a, b) {
+    let c = min(a, b);
+    for (var i = c; i > 0; i--) {
+        if (a % i == 0 && b % i == 0) {
+            return i;
+        }
+    }
+}
+
+function min (a, b) {
+    if (a > b) {
+        return b;
+    } else {
+        return a;
+    }
+}
